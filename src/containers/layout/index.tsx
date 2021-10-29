@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Layout, Menu, Dropdown, message, ConfigProvider, Select } from 'antd';
+import { Layout, Menu, Dropdown, message } from 'antd';
 import { history } from 'umi';
 import './index.less';
-import { DownOutlined } from '@ant-design/icons';
 
 import { userInfoType } from './type';
 
