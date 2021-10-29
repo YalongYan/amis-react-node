@@ -1,0 +1,5 @@
+app/**/**
+www/**/*.js
+/*.js
+/server/
+/src/libs/*.js

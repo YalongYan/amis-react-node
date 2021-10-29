@@ -1,0 +1,58 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "no-console": [0],
+    "camelcase": "off",
+    "generator-star-spacing": [0],
+    "consistent-return": [0],
+    "react/forbid-prop-types": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "global-require": [1],
+    "import/prefer-default-export": [0],
+    "react/jsx-no-bind": [0],
+    "react/prop-types": [0],
+    "react/prefer-stateless-function": [0],
+    "no-else-return": [0],
+    "no-restricted-syntax": [0],
+    "import/no-extraneous-dependencies": [0],
+    "no-use-before-define": [0],
+    "jsx-a11y/no-static-element-interactions": [0],
+    "jsx-a11y/click-events-have-key-events": [0],
+    "jsx-a11y/no-noninteractive-element-interactions": [0],
+    "jsx-a11y/anchor-is-valid": [0],
+    "jsx-a11y/label-has-associated-control": [0],
+    "no-nested-ternary": [0],
+    "arrow-body-style": [0],
+    "import/extensions": [0],
+    "no-bitwise": [0],
+    "no-cond-assign": [0],
+    "import/no-unresolved": [0],
+    "require-yield": [1],
+    "react/jsx-no-target-blank": [0],
+    "no-script-url": [0],
+    "no-plusplus": [0],
+    "no-cycle": [10],
+    "no-return-assign": [0],
+    "semi": ["error", "never"],
+    "dot-notation": [0],
+    "react/jsx-max-props-per-line": [1, { "maximum": 2, "when": "multiline" }],
+    "react/lines-between-class-members": [0],
+    "react/destructuring-assignment": [0],
+    "react/jsx-one-expression-per-line": [0],
+    "react/jsx-closing-tag-location": [0],
+    "react/sort-comp": [0],
+    "react/no-access-state-in-setstate": [0]
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "legacyDecorators": true
+    }
+  },
+  "globals": {
+    "location": true,
+    "document": true,
+    "window": false
+  }
+}

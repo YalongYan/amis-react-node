@@ -1,0 +1,31 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.yd-container {
+  height: calc(100% - 48px);
+  overflow-y: scroll;
+}
+
+.yd-table-wrapper {
+  padding: 0 20px;
+  background: #fff;
+
+  .yd-table {
+    .ant-btn.ant-btn-link {
+      padding: 0;
+
+      & + .ant-btn.ant-btn-link {
+        margin-left: 10px;
+      }
+    }
+
+    .ant-table-tbody > tr > td {
+      white-space: pre-line;
+      word-break: break-all;
+    }
+  }
+}
